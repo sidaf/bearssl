@@ -108,6 +108,7 @@
  *
 #define BR_RDRAND   1
  */
+#define BR_RDRAND   0
 
 /*
  * When BR_USE_GETENTROPY is enabled, the SSL engine will use the
@@ -191,6 +192,8 @@
 #define BR_AES_X86NI   1
  */
 
+#define BR_AES_X86NI   0
+
 /*
  * When BR_SSE2 is enabled, SSE2 intrinsics will be used for some
  * algorithm implementations that use them (e.g. chacha20_sse2). If this
@@ -200,6 +203,8 @@
  *
 #define BR_SSE2   1
  */
+
+#define BR_SSE2   0
 
 /*
  * When BR_POWER8 is enabled, the AES implementation using the POWER ISA
